@@ -1,0 +1,6 @@
+@eficiência_energética_HostAddress = http://localhost:5150
+
+GET {{eficiência_energética_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
