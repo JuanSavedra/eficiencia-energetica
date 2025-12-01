@@ -1,0 +1,19 @@
+Explorar todo o potencial do .NET Core 8 para desenvolver endpoints RESTful que atendam às demandas do seu tema. Você pode seguir com o mesmo tema que já vinha trabalhando ou escolher um novo, aproveitando as diversas possibilidades que a plataforma .NET Core 8 oferece.
+
+Pedimos que você e seu grupo se aprofundem no tema escolhido, indo além das soluções básicas para construir uma aplicação realmente robusta e com potencial de uso em produção. O objetivo é desenvolver ao menos quatro endpoints RESTful que não apenas resolvam as necessidades centrais do projeto, mas também entreguem funcionalidades avançadas e integrações complexas que elevem a qualidade e o valor da solução.
+
+Evitem focar seus esforços em funcionalidades padrão como login, autenticação e manutenção de usuários — esses recursos são comuns em qualquer sistema e não agregam valor técnico relevante nesta etapa. Foquem em resolver o problema real do projeto, trazendo inovação e profundidade. Além disso, cada controller deve conter pelo menos um teste unitário utilizando o framework xUnit, validando se o endpoint retorna corretamente o status code 200. Isso comprova não apenas a funcionalidade da aplicação, mas também a qualidade e confiabilidade do código entregue.
+
+A arquitetura de sua aplicação deve seguir estritamente o padrão MVVM, garantindo uma clara separação entre a lógica de apresentação e a lógica de negócios. Para os endpoints que listam dados, é essencial implementar um mecanismo de paginação, assegurando que a aplicação possa escalar e manejar grandes volumes de dados de forma eficiente. Para endpoints críticos, deve-se implementar mecanismos robustos de autenticação e autorização, garantindo que apenas usuários autorizados tenham acesso a funcionalidades sensíveis.
+
+Com seu conhecimento aprofundado em .NET Core 8, é crucial que você vá além dos simples endpoints. Esperamos que sejam implementadas as configurações iniciais, técnicas avançadas de validação e tratamento de exceções, além de aplicar rigorosos requisitos de segurança nos endpoints pertinentes.
+
+É fundamental que sua solução esteja integrada a um banco de dados e utilize o recurso de migrações, garantindo uma gestão estruturada, segura e escalável do esquema de dados ao longo do tempo. Utilize o SQL Server local disponível no próprio Visual Studio.
+
+O tema a ser trabalhado para gerar os endpoints é esse aqui:
+
+1) Eficiência energética e sustentabilidade
+Monitoramento e otimização do consumo de energia em uma empresa ou cidade.
+Alertas automáticos quando o consumo ultrapassa determinado limite.
+Integração com sensores IoT para desligamento automático de equipamentos ociosos.
+
